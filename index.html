@@ -55,6 +55,7 @@
         </form>
     </div>
 </div>
+<div id="joinedAlertArea" class="container mt-3"></div>
 
 
 </body>
@@ -79,6 +80,22 @@
     socket.on("send data", (data) => {
         ID = data.id;
     })
+
+    socket.on('onConnect', (data) => {
+        let alertDiv = document.createElement("div");
+        alertDiv.setAttribute("role", "alert");
+        alertDiv.className = "alert alert-primary alert-dismissible fade show";
+        alertDiv.innerHTML =
+            '<strong>' +
+            data.user + " joined room " + data.room +
+            '</strong>' +
+            '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"/>';
+        console.log(alertDiv)
+        document.getElementById("joinedAlertArea").appendChild(alertDiv)
+        // console.log(data.msg)
+    });
+
+
     $('#msg').focus();
 
     document

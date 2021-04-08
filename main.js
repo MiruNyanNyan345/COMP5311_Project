@@ -69,12 +69,15 @@ function verifySign(req, res) {
 
 io.on("connection", function (socket) {
     socket.on("join room", (data) => {
-        console.log(data.username + " joined room  " + data.roomName)
+        console.log(data.username + " joined room " + data.roomName)
         let newUser = joinUser(socket.id, data.username, data.roomName)
-        socket.emit('send data', {id: socket.id, username: newUser.username, roomname: newUser.roomname});
         thisRoom = newUser.roomname;
         // console.log(newUser)
         socket.join(newUser.roomname)
+        socket.emit('send data', {id: socket.id, username: newUser.username, roomname: newUser.roomname});
+        socket.emit('onConnect', {user: data.username, room: data.roomName});
+        socket.to(data.roomName).emit("onConnect", {user: data.username, room: data.roomName});
+
     });
 
     socket.on("chat message", (data) => {
