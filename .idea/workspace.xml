@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="004b08e6-772a-41f4-9d2a-284a39ab6c84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,7 @@
       <workItem from="1617417288300" duration="9955000" />
       <workItem from="1617581995418" duration="40000" />
       <workItem from="1617845111480" duration="164000" />
-      <workItem from="1617845278049" duration="7378000" />
+      <workItem from="1617845278049" duration="7544000" />
     </task>
     <task id="LOCAL-00001" summary="remove test.js">
       <created>1617845420869</created>
@@ -108,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617845420869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added joining chatroom alert">
+      <created>1617856264232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617856264232</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +119,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove test.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove test.js" />
+    <MESSAGE value="Added joining chatroom alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added joining chatroom alert" />
   </component>
   <component name="WindowStateProjectService">
     <state x="200" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617846588369">
@@ -128,10 +132,10 @@
       <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state x="474" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.818@0.25.1440.818" timestamp="1617364828552" />
-    <state x="161" y="25" key="CommitChangelistDialog2" timestamp="1617845420487">
+    <state x="161" y="25" key="CommitChangelistDialog2" timestamp="1617856264015">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="161" y="25" key="CommitChangelistDialog2/0.25.1440.818@0.25.1440.818" timestamp="1617845420487" />
+    <state x="161" y="25" key="CommitChangelistDialog2/0.25.1440.818@0.25.1440.818" timestamp="1617856264015" />
     <state x="523" y="191" key="FileChooserDialogImpl" timestamp="1617259545955">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
@@ -216,10 +220,10 @@
       <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state x="245" y="68" key="SettingsEditor/0.25.1440.818@0.25.1440.818" timestamp="1617846254333" />
-    <state x="336" y="165" key="Vcs.Push.Dialog.v2" timestamp="1617845442236">
+    <state x="336" y="165" key="Vcs.Push.Dialog.v2" timestamp="1617856267266">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="336" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.818@0.25.1440.818" timestamp="1617845442236" />
+    <state x="336" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.818@0.25.1440.818" timestamp="1617856267266" />
     <state x="460" y="244" key="jetbrains.nodejs.interpreters-dialog" timestamp="1617259546869">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
